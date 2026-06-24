@@ -1,0 +1,294 @@
+/*CSS*/
+
+body {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  margin: 2em;
+  background-image:
+    url("ttps://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Ftemperaments_back.png?v=1596759776944"),
+    url("https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fstars.jpg?v=1594409366970");
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: center, left top;
+  background-size: contain, cover;
+}
+p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  /*font-size: 29px;*/
+}
+
+.preamble {
+  display: flex;
+}
+.toc-container,
+.mw-warning,
+.toccolours {
+  border: 1px solid #a2a9b1;
+  background-color: #404040;
+  font-size: 25px;
+}
+.toc {
+  display: table;
+  padding: 7px;
+  flex: 0 1 auto;
+  color: white;
+}
+.toc li {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.toc a:-webkit-any-link {
+  color: #b3b3ff;
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toc a:hover {
+  color: yellow;
+}
+
+.sub {
+  color: #ff4d4d;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.transbox {
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid black;
+  flex: 1;
+}
+.transbox p {
+  margin: 2%;
+  font-weight: bold;
+}
+
+.smol {
+  margin: 50px;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  margin-top: em;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.answer-choice img {
+  height: 10em;
+  display: block;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.answer-choice {
+  flex-basis: 20%; /*this means that ALL the answer choice will take up 20% of the flexbox*/
+}
+
+button {
+  border: none;
+  background-color: #e8505b;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+
+  font-family: "Poppins";
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+button:hover {
+  background-color: #f08f94;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #ff8080;
+  color: #404040;
+  cursor: default;
+}
+
+#result {
+  text-align: center;
+  color: black;
+  background-color: pink;
+}
+
+.retake {
+  border: none;
+  background-color: #e8505b;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Poppins";
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.explanation {
+  background-color: #ffffcc;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  color: black;
+  font-family: Varela Round;
+  font-size: 150%;
+  padding: 15px;
+  filter: blur(5px);
+}
+
+.explanation:hover, .explanation:active {
+  filter: blur(0px);
+}
+
+.explanation p {
+  color: black;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+.history {
+  background-color: #ffe6ea;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  color: black;
+  font-family: Varela Round;
+  font-size: 150%;
+  padding: 15px;
+}
+
+.history p {
+  color: black;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.history img {
+  display: block;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-section {
+  background-color: #e6f2ff;
+  padding: 20px 45px;
+  text-align: center;
+  color: black;
+}
+
+/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+
+/* TODO: Add the CSS selector for each image to the collective image rule set */
+
+.parallax {
+  /* The image used */
+  background-image: url("https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fisef%20pp%20cropped3.jpg?v=1596403413362");
+
+  /* Adjust the height of the image*/
+  min-height: 500px;
+
+  width: 1100px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .socials:hover {
+  opacity: 0.7;
+} */
+.socials {
+  word-spacing: 1em;
+}
+a.fa {
+  text-decoration: none;
+  font-size: 130%;
+  color: black;
+  
+}
+a.fa:hover {
+  opacity: 0.7;
+}
+
+.glitch-embed-wrap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  background: black;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff3333;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  /* Mobile devices can have trouble with parallax scrolling */
+  .parallax {
+    background-attachment: scroll;
+  }
+  /* Lay out the intro vertically if we don't have space */
+  .preamble {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+  <head>
+    <title>Temperament Theory Test</title>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Ftemperaments.png?v=1596759024156"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Temperament Theory Test" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://temperament-test.glitch.me" />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Ftemperaments.png?v=1596759024156"
+    />
+    <meta
+      property="og:description"
+      content="Explore the Four Temperament Theory and take a personality quiz!"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster Two"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1 id="Introduction">
+      <strong><ins>What is your temperament?</ins></strong>
+    </h1>
+
+    <div class="preamble">
+      <div class="toc-container">
+        <div class="toc">
+          <h2>Contents:</h2>
+          <ol>
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#Quiz">Quiz</a></li>
+            <li><a href="#Description">Description of the Temperaments</a></li>
+            <li><a href="#History">History behind the Temperaments</a></li>
+            <li><a href="#Creator">Meet the Creator</a></li>
+            <li><a href="#Code">See the Code</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="transbox">
+        <p>
+          Nowadays, there are thousands of theorized personality categories and
+          personality tests to go with it.
+        </p>
+        <p>
+          <b><em>But where did it all start?</em></b>
+        </p>
+        <p>
+          The Four Temperaments model is one of the oldest theorized personality
+          type systems in the world. This ancient concept gave way to the many
+          psychological theories and tests we see today.
+        </p>
+        <p>
+          So here, you will be exploring the different temperaments of the Four
+          Temperament Theory and its history, as you take your own personality
+          test on which temperament you are!
+        </p>
+        <p class="sub">
+          <small>
+            <em
+              >NOTE: This quiz was created for entertainment and educational
+              purposes only and does not come with any guarantee of accuracy for
+              any particular purpose. Thus it should not be used for any kind of
+              psychological advice or truth.
+              <br />
+              This website is best read on a desktop/laptop device.
+            </em></small
+          >
+        </p>
+      </div>
+    </div>
+
+    <h1 id="Quiz" style="text-align: left">
+      <strong><em> Quiz:</em></strong>
+    </h1>
+
+    <h2>
+      1. How would you feel if you had no access to any technology that uses the
+      internet for a week?
+    </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq1a1.jpg?v=1594345621083"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q1a1">Panicked I can’t use the things I usually do</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq1a2.jpg?v=1594345613936"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q1a2">Mad that I can’t use technology</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq1a3.png?v=1594345613648"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q1a3">
+          Bored out of my mind and miss calling/texting my friends but I’ll be
+          fine if I meet up with them to hang out
+        </button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq1a4.jpg?v=1594345603489"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q1a4">
+          Mostly fine, there are lots of other things to do that don’t require
+          the internet
+        </button>
+      </div>
+    </div>
+
+    <h2>
+      2. What type of app do you use most in your phone?
+      <i><small>(hint: look at your phone's screen time settings)</small></i>
+    </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq2a1%204.png?v=1594410491290"
+        />
+        <br />
+        <button id="q2a1">Social Networking</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq2a2.png?v=1594345807693"
+        />
+        <br />
+        <button id="q2a2">Productivity</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq2a3%202.png?v=1594412458600"
+          style="width: 200px; height: 200px"
+        />
+        <br />
+        <button id="q2a3">Entertainment</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq2a4.png?v=1594413222707"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q2a4">Games</button>
+      </div>
+    </div>
+
+    <h2>3. What element do you believe represents you most?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq3a1.png?v=1594414005230"
+        />
+        <br />
+        <button id="q3a1">Earth</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/24d95a70-8492-414a-a89a-cbc8c3930513%2Fq3a2%202.png?v=1594668588788"
+          style="width: 250px; height: 205px"
+        />
+        <br />
+        <button id="q3a2">Water</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq3a3.png?v=1594416234214"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q3a3">Air</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq3a4.png?v=1594416434760"
+        />
+        <br />
+        <button id="q3a4" style="text-align: center">Fire</button>
+      </div>
+    </div>
+
+    <h2>
+      4. In a group of friends or a team for work, what would you describe
+      yourself as?
+    </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq4a1.jpg?v=1594418407460"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q4a1">
+          The leader, I’m most responsible and always have a clear goal
+        </button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq4a2.png?v=1594418411192"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q4a2">
+          The most outgoing and talkative, I make friends the easiest
+        </button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq4a3.jpg?v=1594418415951"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q4a3">
+          The planner, I’m the most organized and try to make everything as
+          perfect as can be
+        </button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fq4a4%202.jpg?v=1594418429311"
+          style="width: 250px; height: 200px"
+        />
+        <br />
+        <button id="q4a4">
+          The diplomat, I’m kind and always willing to help calmly so that
+          everyone works together well
+        </button>
+      </div>
+    </div>
+
+    <div class="result">
+      <h1 id="result">Your result is...</h1>
+    </div>
+    <div class="retake">
+      <button id="updateRetake" onclick="Reload()" style="text-align: center">
+        Retake
+      </button>
+    </div>
+
+    <hr />
+
+    <br />
+    <h1 id="Description" style="text-align: left">
+      <strong><em> Description of the Temperaments:</em></strong>
+    </h1>
+    <p class="sub">
+      <small>
+        Hover over text to see on desktop. Click on text to see on phone or
+        tablet device.</small
+      >
+    </p>
+
+    <div class="explanation" tabindex="-1">
+      <p>
+        <b><em>Sanguine:</em></b>
+        <br />
+        <small>
+          The Sanguine temperament is described as sociable, outgoing,
+          talkative, optimistic, and active. Those with this temperament are
+          typically prone risk and pleasure-seeking behaviours, such as
+          addictions and cravings. Their natural extrovertedness makes them tend
+          to enjoy social gatherings and making new friends. They may be very
+          confident in themselves, which can also mean they come off as
+          self-absorbed and certain that they only do what is right.</small
+        >
+      </p>
+      <p>
+        <b><em>Choleric:</em></b>
+        <br />
+        <small>
+          The Choleric temperament is described as ambitious, goal-oriented,
+          analytical, practical, independent, and decisive. Those with this
+          temperament value being in control and may in turn come off as
+          domineerng and aggressive. However, despite their efforts to have
+          self-control, they may still have anger-management issues. High
+          testosterone activity can make them competetive and perfectionists,
+          but they are very passionate and determined in what they do. These
+          individuals typically do what is most efficient for them, so they may
+          not enjoy engaging in small-talk, but they are very good at planning
+          and problem-solving, making them great leaders.</small
+        >
+      </p>
+      <p>
+        <b><em>Melancholic:</em></b>
+        <br />
+        <small>
+          Melancholic individuals tend to be analytical and detail-oriented, and
+          they are deep thinkers and feelers. They are introverted and try to
+          avoid being singled out in a crowd. A melancholic personality leads to
+          self-reliant individuals who are thoughtful, reserved, and often
+          anxious. They often strive for perfection within themselves and their
+          surroundings, which leads to tidy and detail-oriented behavior, and
+          can also result in them sometimes being pessimistic and
+          procrastinators.</small
+        >
+      </p>
+      <p>
+        <b><em>Phlegmatic:</em></b>
+        <br />
+        <small>
+          Phlegmatic individuals tend to be relaxed, peaceful, quiet, and
+          easy-going. They are sympathetic and care about others, yet they may
+          try to hide their emotions. Phlegmatic individuals are also good at
+          generalising ideas or problems to the world and making compromises.
+          However, their peace-making can stem from their indecisiveness and
+          compromising nature, which can result in them not being very
+          goal-oriented and, in turn, prone to laziness.</small
+        >
+      </p>
+    </div>
+
+    <br />
+    <h1 id="History" style="text-align: left">
+      <strong><em> History behind the Temperaments:</em></strong>
+    </h1>
+
+    <div class="history">
+      <p>
+        <small>
+          Nowadays, we have a vast array of psychological theories to determine
+          how personality affects different individuals. Different patterns have
+          been exploited and tests have been conducted throughout history to
+          unveil the mystery behind these supposed personality traits.
+          <br />
+          One of the most widely used personality inventories available
+          currently is the Myers-Briggs Type Indicator (MBTI), based on the
+          theory that people experience the world with four principal
+          psychological functions. With each category having opposing traits
+          (Introversion/Extraversion, Sensing/Intuition, Thinking/Feeling,
+          Judging/Perceiving), different individuals seem to have one preferred
+          quality from them all, creating 16 unique personality types.</small
+        >
+      </p>
+      <img
+        src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2FMyersBriggsTypes.png?v=1596572522215"
+        style="width: 850px; height: 600px"
+      />
+      <p>
+        <small>
+          However, personality theories have been created and existed for
+          thousands and thousands of years. It is difficult to pinpoint an exact
+          point in time in which the study of personality began, however Greek
+          physician Hippocrates is credited with the first official medicinal
+          theory on which the temperaments are based upon in around 370 BC.
+          <br />
+          The Temperaments were rooted in humourism, an ancient theory that had
+          its place in Ayurvedic medicine, Ancient Egyptian medicine,
+          Mesopotamia, etc. The Humoral theory states that the body has four
+          humors (bodily fliuds) that when mixed properly and equally,
+          demonstrates good health. These four humors or fluid substances are
+          categorized as blood, phlegm, yellow bile, and black bile. It was
+          believed that illness or pain only occurs due to a deficiency or
+          excess of any one combination of these fluids.
+          <br />
+          <br />
+          For example, East Indian traditional Ayurvedic mmedicine is based on
+          the idea that the equilibrium of three humors: kapha (phlegm), pitta
+          (bile), and vata (wind), are what good health is dependent on. This
+          same concept takes place in Ancient Greek medicine and throughout the
+          Mediterranean region with the 4 humors.</small
+        >
+      </p>
+      <p>
+        <small>
+          Later on, about 2nd century AD, Greek philosopher and physician Galen
+          formulated the temperamental categories with respect to the four
+          bodily humors. In an effort to discern why certain behaviors or
+          emotions are caused, Galen turned to the four humors. He believed that
+          a inbalance of these elemental fluids would cause said "moods".
+        </small>
+      </p>
+      <pre class="smol">
+Choleric: yellow bile from the liver
+Sanguine: red blood from the heart
+Melancholic: black bile from the kidneys
+Phlegmatic: white phlegm from the lungs</pre
+      >
+      <p class="sub" style="text-align: left">
+        (Clark & Watson, 2008; Eysenck & Eysenck, 1985; Lecci & Magnavita, 2013;
+        Noga, 2007)
+      </p>
+
+      <p>
+        <small>
+          Galen's postulations continued to be prevalent even through the Middle
+          Ages and remained custom until the 16th century when Galen's theories
+          were amended with medical discovories by Andreas Vesalius and, later,
+          William Harvey. As such, the four fluid temperament postulations had
+          been dubunked in terms of physiology.</small
+        >
+      </p>
+      <p class="sub" style="text-align: left">(Heineman, 1995)</p>
+      <p>
+        <small
+          >However, its classifications continued to be used in psychology. For
+          example, 18th century's Immanuel Kant agreed with Galen that each
+          individual could be categorized into only one of the four temperaments
+          as he developed different traits that could be attributed to describe
+          the personality of an individual from each of the temperaments. 19th
+          century's psychologist Wilhelm Wundt later suggested the arrangement
+          of the traits on two major axes, emotional/nonemotional and
+          changeable/unchangeable.</small
+        >
+      </p>
+      <p class="sub" style="text-align: left">
+        (Eysenck, 2009; Stelmack & Stalikas, 1991; Wundt, 1874/1886)
+      </p>
+      <img
+        src="https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2FCNX_Psych_11_01_FourTemper.jpg?v=1596569678188"
+        style="width: 600px; height: 500px"
+      />
+      <p>
+        <small
+          >Galen's stipulations also influenced the work of Sigmund Freud and
+          Carl Jung which continued on to form the basis of personality profiles
+          such as Myers-Briggs™️.</small
+        >
+      </p>
+    </div>
+
+    <hr />
+  </body>
+</html>
+
+<h1 id="Creator">Meet the Creator</h1>
+<div class="parallax"></div>
+<div class="text-section">
+  <h2 style="color: black">Hello, I'm Hrishika Roychoudhury!</h2>
+
+  <p style="color: black">
+    Hi! I'm Hrishika Roychoudhury, an undergraduate student at the University of North Carolina (UNC) at Chapel Hill, and
+    this is my project for my first time at Pearl Hacks 2023 where I was able to
+    learn, practice, and explore the various features of HTML, CSS, and Javascript.
+  </p>
+
+  <div class="row3">
+    <!--    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-cb9cab58-069c-434d-b172-33f09f9cdfc6"></div>  -->
+    <div class="column socials">
+      <a href="https://www.instagram.com/hrcdream/" class="fa fa-instagram"></a>
+      <a
+        href="https://www.linkedin.com/in/hrishika-roychoudhury-466672186/"
+        class="fa fa-linkedin"
+      ></a>
+      <a
+        href="https://www.facebook.com/hrishika.roychoudhury/"
+        class="fa fa-facebook-square"
+      ></a>
+    </div>
+  </div>
+</div>
+
+<br />
+<h1 id="Code" style="text-align: left">
+  <strong><em> See the Code:</em></strong>
+</h1>
+<div class="glitch-embed-wrap" style="height: 750px; width: 80%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/temperament-theory-test?path=index.html&previewSize=0"
+    title="temperament-theory-test on Glitch"
+    allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+    allowFullScreen
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+</div>
