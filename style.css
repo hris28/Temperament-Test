@@ -5,8 +5,8 @@ body {
   font-size: 20px;
   margin: 2em;
   background-image:
-    url("ttps://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Ftemperaments_back.png?v=1596759776944"),
-    url("https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fstars.jpg?v=1594409366970");
+    url("images/temperaments_back.png"),
+    url("images/stars.jpg");
   background-repeat: no-repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: center, left top;
@@ -219,7 +219,7 @@ hr {
 
 .parallax {
   /* The image used */
-  background-image: url("https://cdn.glitch.com/d809f065-315f-4290-809e-be0c3e6bb015%2Fisef%20pp%20cropped3.jpg?v=1596403413362");
+  background-image: url("images/isef-pp-cropped3.jpg");
 
   /* Adjust the height of the image*/
   min-height: 500px;
