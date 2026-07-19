@@ -1,29 +1,28 @@
-# Image assets — replacement checklist
+# Image assets
 
 The original images were hosted on Glitch's CDN (`cdn.glitch.com`), which was
-decommissioned when Glitch shut down. The files below are **placeholders**;
-replace each with the real image (keep the same filename).
+decommissioned when Glitch shut down. They have been replaced as follows. Every
+image is a local file referenced by `<img src="images/…">` — swap any file for
+your own anytime (keep the same filename).
 
-| Local file | Original Glitch name | Category | Notes |
-|---|---|---|---|
-| `images/CNX_Psych_11_01_FourTemper.jpg` | `CNX_Psych_11_01_FourTemper.jpg` | public | OpenStax Psychology figure 11.1 (CC-BY) — freely re-downloadable |
-| `images/MyersBriggsTypes.png` | `MyersBriggsTypes.png` | public | Common public MBTI 16-types chart |
-| `images/isef-pp-cropped3.jpg` | `isef pp cropped3.jpg` | PERSONAL | Your own photo — supply from your files |
-| `images/q1a1.jpg` | `q1a1.jpg` | stock | Quiz answer photo (generic stock) |
-| `images/q1a2.jpg` | `q1a2.jpg` | stock | Quiz answer photo (generic stock) |
-| `images/q1a3.png` | `q1a3.png` | stock | Quiz answer photo (generic stock) |
-| `images/q1a4.jpg` | `q1a4.jpg` | stock | Quiz answer photo (generic stock) |
-| `images/q2a1-4.png` | `q2a1 4.png` | brand icon | App icon (Instagram / Snapchat / WhatsApp / etc.) |
-| `images/q2a2.png` | `q2a2.png` | brand icon | App icon (Instagram / Snapchat / WhatsApp / etc.) |
-| `images/q2a3-2.png` | `q2a3 2.png` | brand icon | App icon (Instagram / Snapchat / WhatsApp / etc.) |
-| `images/q2a4.png` | `q2a4.png` | brand icon | App icon (Instagram / Snapchat / WhatsApp / etc.) |
-| `images/q3a1.png` | `q3a1.png` | stock | Quiz answer photo (generic stock) |
-| `images/q3a2-2.png` | `q3a2 2.png` | stock | Quiz answer photo (generic stock) |
-| `images/q3a3.png` | `q3a3.png` | stock | Quiz answer photo (generic stock) |
-| `images/q3a4.png` | `q3a4.png` | stock | Quiz answer photo (generic stock) |
-| `images/q4a1.jpg` | `q4a1.jpg` | stock | Quiz answer photo (generic stock) |
-| `images/q4a2.png` | `q4a2.png` | stock | Quiz answer photo (generic stock) |
-| `images/q4a3.jpg` | `q4a3.jpg` | stock | Quiz answer photo (generic stock) |
-| `images/q4a4-2.jpg` | `q4a4 2.jpg` | stock | Quiz answer photo (generic stock) |
-| `images/stars.jpg` | `stars.jpg` | stock | Space / starry background |
-| `images/temperaments.png` | `temperaments.png` | public | Four Temperaments diagram (also used as favicon) |
+## Quiz answers
+| File(s) | What it is | Source |
+|---|---|---|
+| `q1a1.jpg` `q1a2.jpg` `q1a3.jpg` `q1a4.jpg` | Q1 answer photos (worried · broken phone · friends · hobby) | Free stock, **CC0 / Public Domain** (Openverse) — no attribution required |
+| `q2a1-4.png` `q2a2.png` `q2a3-2.png` `q2a4.png` | Q2 app-category icons (Social · Productivity · Entertainment · Games) | Emoji, rendered to transparent PNG |
+| `q3a1.png` `q3a2-2.png` `q3a3.png` `q3a4.png` | Q3 elements (Earth · Water · Air · Fire) | Emoji, transparent PNG |
+| `q4a1.png` `q4a2.png` `q4a3.png` `q4a4-2.png` | Q4 roles (Leader · Outgoing · Planner · Diplomat) | Emoji, transparent PNG (were `.jpg`; now `.png` for transparency) |
+
+## Content / decorative
+| File | What it is | Source / note |
+|---|---|---|
+| `temperaments.png` | Site emblem / favicon (four coloured temperament faces) | Colourised from *"Four temperaments – 2"*, **Public Domain**, Wikimedia Commons |
+| `CNX_Psych_11_01_FourTemper.jpg` | Four-temperaments (Wundt two-axis) diagram | Rendered locally — accurate replacement for the OpenStax figure (whose CDN blocked direct download); swap for the real one if you like |
+| `MyersBriggsTypes.png` | MBTI 16-types chart | Wikimedia Commons — **CC BY-SA 3.0** (needs attribution; see https://commons.wikimedia.org/wiki/File:MyersBriggsTypes.png) |
+| `stars.jpg` | Page background starfield | Generated |
+| `temperaments_back.png` | Decorative body background layer | Transparent placeholder |
+| `isef-pp-cropped3.jpg` | "Meet the Creator" photo | **Empty placeholder — add your own photo** |
+
+## To do
+- Add your personal creator photo as `isef-pp-cropped3.jpg`.
+- (Optional) Add a visible credit for `MyersBriggsTypes.png` (CC BY-SA 3.0) or replace it with your own chart.
